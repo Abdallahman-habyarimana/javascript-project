@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-box: box-sizing;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,300;0,400;0,500;0,700;1,600;1,700&display=swap');
+  
+  :root {
+    --main-color: #f1b876;
+    --background-color: #1b272f;
+  }
+  
+  body {
+    color: #fff;
+    background-color: var(--background-color);
+    font-family: 'Noto Sans Display', sans-serif;
+  }
+  
+  .container {
+    width: 40%;
+    margin: 100px auto;
+    height: 100vh;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .timer-container {
+    margin-top: 40px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    padding: 0 20px;
+  }
+  
+  .timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #808080;
+    font-size: 14px;
+  }
+  
+  .days, .hours, .minutes, .seconds {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  
