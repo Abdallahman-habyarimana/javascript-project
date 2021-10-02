@@ -4,9 +4,9 @@ let minutes = document.querySelector('.minutes');
 let seconds = document.querySelector('.seconds')
 
 var futureDate = new Date('2021-10-29T11:30:00');
-var currentDate = new Date();
 
 function startCounting() {
+    var currentDate = new Date();
     const target = futureDate - currentDate;
 
     const day = Math.floor(target / 1000 / 60 / 60 / 24)
